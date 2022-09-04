@@ -2,7 +2,9 @@
 **While working on a project that uses a lot of SVG text and other features, we have encountered some browser specific bugs, mainly Safari/Webkit,
 most are very old reported bugs and all of them already reported and fixed in Chromium.**
 
-## SVG textLength not working correctly (2017)
+
+
+## SVG textLength not working correctly (Opened 2017, Chromium fixed 2017)
 
 Safari - [Bug 171805: SVG textLength not working correctly](https://bugs.webkit.org/show_bug.cgi?id=171805)  
 Chromium - [Issue 719522: SVG textLength not working correctly](https://bugs.chromium.org/p/chromium/issues/detail?id=719522)
@@ -13,19 +15,22 @@ In this specific bug (Just to prove a point) I took the time to install a local 
 **TODO: Need to open a ticket or find an existing one, [A codepen showing both bugs](https://codepen.io/tombigel/pen/QWQQaGM)***
 
 
-## SVG Text non-scaling-stroke doesn't work (2014)
+
+## SVG Text non-scaling-stroke doesn't work (Opened 2014, Chromium fixed 2015)
 
 Safari - [Bug 139322: Setting the "vector-effect" attribute in the SVG `<text>` tag to "non-scaling-stroke" has no effect](https://bugs.webkit.org/show_bug.cgi?id=139322)  
 Chromium - [Issue 475203: SVG Text non-scaling-stroke doesn't work](https://bugs.chromium.org/p/chromium/issues/detail?id=475203)
 
 
-## Layer content inside HTML in SVG foreignObject renders in the wrong place (2009)
+
+## Layer content inside HTML in SVG foreignObject renders in the wrong place (Opened 2009, Chromium fixed 2018)
 
 Safari - [Bug 23113: Layer content inside HTML in SVG foreignObject renders in the wrong place](https://bugs.webkit.org/show_bug.cgi?id=23113)  
 Chromium - [Issue 771852: Self-painting PaintLayers underneath `<foreignObject>` do not position or size correctly](https://bugs.chromium.org/p/chromium/issues/detail?id=771852)
 
 
-## clip-path on `<text>` referenced via `<use>` in `<clipPath>` is ignored (2016)
+
+## clip-path on `<text>` referenced via `<use>` in `<clipPath>` is ignored (Chromium fixed 2016)
 
 Safari - *Couln't find a ticket*  
 Chromium - [Issue 604679: clip-path on `<text>` referenced via `<use>` in `<clipPath>` is ignored](https://bugs.chromium.org/p/chromium/issues/detail?id=604679)  
