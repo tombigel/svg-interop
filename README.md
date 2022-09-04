@@ -27,7 +27,8 @@ Chromium - [Issue 771852: Self-painting PaintLayers underneath `<foreignObject>`
 
 ## clip-path on `<text>` referenced via `<use>` in `<clipPath>` is ignored (2016)
 
-Safari - *Couln't find a ticket, but found a close one [Bug 141929: Changing presentation attributes of shape referenced by `<use>` in `<clipPath>` breaks clipping](https://bugs.webkit.org/show_bug.cgi?id=141929)* 
-I created a simple cdoepen with an example: [SVG Clip Path with `<use>` referencing a `<text>` doesn't show](https://codepen.io/tombigel/pen/WNJbrLv)
+Safari - *Couln't find a ticket*  
 Chromium - [Issue 604679: clip-path on `<text>` referenced via `<use>` in `<clipPath>` is ignored](https://bugs.chromium.org/p/chromium/issues/detail?id=604679)  
-and [Issue 604677: <text> referenced via <use> in <clipPath> is ignored](https://bugs.chromium.org/p/chromium/issues/detail?id=604677)
+and [Issue 604677: <text> referenced via <use> in <clipPath> is ignored](https://bugs.chromium.org/p/chromium/issues/detail?id=604677)  
+
+  ***TODO: Open a ticket. I created a simple cdoepen with an example: [SVG Clip Path with `<use>` referencing a `<text>` doesn't show](https://codepen.io/tombigel/pen/WNJbrLv)***
