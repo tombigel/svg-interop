@@ -13,17 +13,20 @@ In this specific bug (Just to prove a point) I took the time to install a local 
 *As a part of researching this bug I found another related bug - Webkit is taking trailing line break chars into account when calculating textLength.  
 **TODO: Need to open a ticket or find an existing one, [A codepen showing both bugs](https://codepen.io/tombigel/pen/QWQQaGM)***
 
+
 ## SVG Text non-scaling-stroke doesn't work (2014)
 
 Safari - [Bug 139322: Setting the "vector-effect" attribute in the SVG `<text>` tag to "non-scaling-stroke" has no effect](https://bugs.webkit.org/show_bug.cgi?id=139322)  
 
 Chromium - [Issue 475203: SVG Text non-scaling-stroke doesn't work](https://bugs.chromium.org/p/chromium/issues/detail?id=475203)
 
+
 ## Layer content inside HTML in SVG foreignObject renders in the wrong place (2009)
 
 Safari - [Bug 23113: Layer content inside HTML in SVG foreignObject renders in the wrong place](https://bugs.webkit.org/show_bug.cgi?id=23113)  
 
 Chromium - [Issue 771852: Self-painting PaintLayers underneath `<foreignObject>` do not position or size correctly](https://bugs.chromium.org/p/chromium/issues/detail?id=771852)
+
 
 ## clip-path on `<text>` referenced via `<use>` in `<clipPath>` is ignored (2016)
 
