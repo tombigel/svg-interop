@@ -4,7 +4,7 @@ most are very old reported bugs and all of them already reported and fixed in Ch
 
 
 
-## SVG textLength not working correctly (Opened 2017, Chromium fixed 2017) [UPDATE: A fix pushed on 14 Jan 2023]
+## SVG textLength not working correctly (Opened 2017, Chromium fixed 2017)  [UPDATE: A fix pushed on 14 Jan 2023]
 
 Safari - [Bug 171805: SVG textLength not working correctly](https://bugs.webkit.org/show_bug.cgi?id=171805)  
 Chromium - [Issue 719522: SVG textLength not working correctly](https://bugs.chromium.org/p/chromium/issues/detail?id=719522)
