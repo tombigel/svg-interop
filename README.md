@@ -13,7 +13,8 @@ In this specific bug (Just to prove a point) the soultion is super simple, it's 
 All it's missing is fixing the tests.
 
 *As a part of researching this bug I found another related bug - Webkit is taking trailing line break chars into account when calculating textLength.  
-[**UPDATE:** Fixed in Safari TP 173] [Ticket](https://bugs.webkit.org/show_bug.cgi?id=257160) 
+
+[**UPDATE:** Fixed in Safari TP 173] [Webkit Ticket](https://bugs.webkit.org/show_bug.cgi?id=257160) 
 
 [textLength off by one + trailing line break example Codepen](https://codepen.io/tombigel/pen/QWQQaGM)
 
@@ -37,7 +38,7 @@ Chromium - [Issue 771852: Self-painting PaintLayers underneath `<foreignObject>`
 
 ## [**UPDATE:** Fixed in Safari TP 173] clip-path on `<text>` referenced via `<use>` in `<clipPath>` is ignored (Chromium fixed 2016) 
 
-Safari - [Ticket](https://bugs.webkit.org/show_bug.cgi?id=258168)
+Safari - [Webkit Ticket](https://bugs.webkit.org/show_bug.cgi?id=258168)  
 Chromium - [Issue 604679: clip-path on `<text>` referenced via `<use>` in `<clipPath>` is ignored](https://bugs.chromium.org/p/chromium/issues/detail?id=604679)  
 and [Issue 604677: `<text>` referenced via `<use>` in `<clipPath>` is ignored](https://bugs.chromium.org/p/chromium/issues/detail?id=604677)  
 
